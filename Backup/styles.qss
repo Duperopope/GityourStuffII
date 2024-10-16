@@ -1,0 +1,43 @@
+/* styles.qss */
+
+/* Style général de la fenêtre */
+QMainWindow {
+    background: #030321; /* Couleur de fond plus foncée */
+}
+
+/* ComboBox */
+QComboBox {
+    background-color: rgba(255, 255, 255, 180); /* Légèrement transparent */
+    color: #000000;
+    padding: 6px;
+    font-size: 14px;
+    border: 2px solid #ffffff;
+    border-radius: 4px;
+    margin: 8px 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Labels des MessageBox */
+QMessageBox QLabel {
+    color: #ffffff;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+}
+
+/* Boutons des MessageBox */
+QMessageBox QPushButton {
+    background-color: rgba(36, 57, 73, 180); /* Légèrement transparent */
+    color: #ffffff;
+    padding: 8px;
+    border: 2px solid #ffffff;
+    border-radius: 4px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    margin: 8px 0;
+    text-transform: uppercase;
+}
+
+QMessageBox QPushButton:hover {
+    background-color: rgba(81, 127, 164, 180); /* Couleur légèrement plus claire au survol */
+    cursor: pointer; /* Assurez-vous que cela est uniquement appliqué aux QPushButton */
+}

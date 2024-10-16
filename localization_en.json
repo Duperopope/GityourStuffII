@@ -1,0 +1,19 @@
+{
+    "app_title": "Git Your Stuff",
+    "title_label": "Git Your Stuff",
+    "tab_versions": "Version Management",
+    "tab_github": "GitHub",
+    "button_save_version": "Save Version",
+    "button_restore_version": "Restore Version",
+    "button_archive_version": "Archive Version",
+    "button_extract_version": "Extract Version from ZIP",
+    "button_connect_github": "Connect to GitHub",
+    "button_disconnect_github": "Disconnect",
+    "notification_save_success": "Version saved successfully.",
+    "notification_restore_success": "Version restored successfully.",
+    "notification_archive_success": "Version archived successfully.",
+    "notification_extract_success": "Version extracted successfully.",
+    "notification_error": "An error occurred: {error}",
+    "github_user": "Username: {username}\nFull Name: {fullname}",
+    "github_push": "{repo_name} - Last push: {pushed_at}"
+}
